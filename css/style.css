@@ -21,11 +21,11 @@
 
 /* Contenedor general */
 .container-all {
-    font-family: 'Outfit', sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
     letter-spacing: 2px;
     width: 100vw;
-    /* height: 100vh; */
+    height: 100vh;
     background-color: var(--bg-page);
     display: flex;
     flex-direction: column;
@@ -47,7 +47,6 @@
     height: 48px;
     background-color: var(--third);
     border-radius: 10px;
-    box-shadow: 0px 4px #75858c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,12 +68,10 @@
 
 .btn.newg.cpu {
     background-color: var(--first);
-    box-shadow: 0px 7px #a97b26;
 }
 
 .btn.newg.player {
     background-color: var(--second);
-    box-shadow: 0px 7px #1d7571;
 }
 
 .btn.newg.cpu::before {
@@ -94,7 +91,6 @@
     padding: 0 1.5rem;
     border-radius: 10px;
     background-color: var(--third);
-    box-shadow: 0 4px #75858c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,7 +103,6 @@
     padding: 0 1.5rem;
     border-radius: 10px;
     background-color: var(--first);
-    box-shadow: 0 4px #a97b26;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +169,6 @@
     align-items: center;
     background-color: var(--bg-card);
     border-radius: 10px;
-    box-shadow: 0 8px #15252d;
 }
 
 .player-select .selection-message {
@@ -219,7 +213,6 @@
     height: 48px;
     background-color: var(--bg-card);
     border-radius: 10px;
-    box-shadow: 0 7px var(--bg-card-shadow);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,7 +254,6 @@
 
 .game-board .game-board-grid div {
     background-color: var(--bg-card);
-    box-shadow: 0 7px var(--bg-card-shadow);
     border-radius: 7px;
 }
 
@@ -312,7 +304,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
-    /* Redimensionar la imagen de fondo para cubrir el contenedor */
 }
 
 .place-o {
@@ -321,7 +312,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
-    /* Redimensionar la imagen de fondo para cubrir el contenedor */
 }
 
 /* Fin del juego */
@@ -450,7 +440,6 @@
       align-items: center;
       background-color: var(--bg-card);
       border-radius: 10px;
-      box-shadow: 0 8px #15252d;
   
       width: 85vw;
     }
@@ -490,7 +479,6 @@
       height: 48px;
       background-color: var(--bg-card);
       border-radius: 10px;
-      box-shadow: 0 7px var(--bg-card-shadow);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -507,11 +495,9 @@
     }
     .btn.newg.cpu {
       background-color: var(--first);
-      box-shadow: 0px 7px #a97b26;
     }
     .btn.newg.player {
       background-color: var(--second);
-      box-shadow: 0px 7px #1d7571;
     }
   
     .btn.newg.cpu::before {
@@ -530,7 +516,6 @@
       padding: 0 1.5rem;
       border-radius: 10px;
       background-color: var(--third);
-      box-shadow: 0 4px #75858c;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -543,7 +528,6 @@
       padding: 0 1.5rem;
       border-radius: 10px;
       background-color: var(--first);
-      box-shadow: 0 4px #a97b26;
       display: flex;
       justify-content: center;
       align-items: center;
